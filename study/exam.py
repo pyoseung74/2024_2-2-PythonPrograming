@@ -13,7 +13,16 @@ print(a+b)
 a=80
 b=75
 c =55
-scores = {"name", "홍길동", "kor":80, "eng":75, "math":55}
+scores = []
+scores = {"name":"홍길동", "kor":80, "eng":75, "math":55}
+
+scores.append(score)
+score["name"] = "춘향이"
+score["kor"] = 50
+score["eng"] = 85
+score["math"] = 95
+{"kor":50,"eng":85, "math":95}
+scores.append(score)
 
 avg = (scores["kor"]+scores["eng"]+scores["math"]) /(len(scores)-1)
 print("홍길동 학생의 점수는 {avg} 입니다.")
